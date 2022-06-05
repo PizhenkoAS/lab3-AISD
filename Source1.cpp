@@ -152,7 +152,7 @@ int main()
     cout << "\n\n================================== Bellman Ford SHort way ====================================\n";
     gr.AlgorithmFord("New York", "Sankt Peterburg");//Для примера запускаем от Нью Йорк до Санкт Петербурга
     cout << "\n\n================================================================================================\n";
-    return 0;
+    return 0; 
 }
 
 istream& operator>>(istream& in, Punkt& p)
